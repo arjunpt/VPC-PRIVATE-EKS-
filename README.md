@@ -2,7 +2,8 @@
 
 A breakdown of why and how we design a secure VPC setup for running **Amazon EKS** using **private subnets**, **NAT**, and **internet gateways**, along with Terraform implementation concepts.
 
-![image](https://github.com/user-attachments/assets/94b5f83a-c5f8-482c-a4ee-c38ac7da26e3)
+![image](https://github.com/user-attachments/assets/20b24009-aa4c-45bc-918b-ead6f9ef97a4)
+
 
 ---
 
