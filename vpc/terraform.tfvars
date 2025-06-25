@@ -1,1 +1,18 @@
-
+env                   = "dev"
+aws_region            = "us-east-1"
+cidr_block = "10.16.0.0/16"
+vpc_name              = "vpc"
+igw_name              = "igw"
+public_subnet_count      = 3
+public_cidr_block =        ["10.16.0.0/20", "10.16.16.0/20", "10.16.32.0/20"]
+public_availability_zone = ["us-east-1a", "us-east-1b", "us-east-1c"]
+public_subnet_name = "subnet-public"
+private_subnet_count      = 3
+private_cidr_block      = ["10.16.128.0/20", "10.16.144.0/20", "10.16.160.0/20"]
+private_availability_zone = ["us-east-1a", "us-east-1b", "us-east-1c"]
+private_subnet_name       = "subnet-private"
+public_route_table_name      = "public-route-table"
+private_route_table_name    = "private-route-table"
+eip_name              = "elasticip-ngw"
+nat_gateway_name =     "ngw"
+eks_sg                = "eks-sg"
