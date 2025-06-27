@@ -1,5 +1,5 @@
 module "vpc" {
-    source = "../modules/vpc"
+    source = "../Modules/vpc"
     vpc_name = var.vpc_name
     cidr_block = var.cidr_block
     env = var.env
