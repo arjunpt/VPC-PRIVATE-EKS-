@@ -85,6 +85,3 @@ variable "eks_sg" {
   description = "Name of the EKS security group"
   type        = string
 }
-
-
-
