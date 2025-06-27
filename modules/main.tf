@@ -53,7 +53,7 @@ resource "aws_subnet" "private_subnet" {
   tags = {
     Name                                          = "${var.private_subnet_name}-${count.index + 1}"
     Env                                           = var.env
-    # "kubernetes.io/cluster/${local.cluster-name}" = "owned"
+    "kubernetes.io/cluster/${local.cluster-name}" = "owned"
     "kubernetes.io/role/internal-elb"             = "1"
   }
 
