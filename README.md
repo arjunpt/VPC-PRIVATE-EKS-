@@ -7,7 +7,7 @@ A breakdown of why and how we design a secure VPC setup for running **Amazon EKS
 
 ---
 
-## 🔁 Workflow Breakdown: Why You Need Each Part
+## 🔁 Workflow Breakdown: Why You Need Each Parts
 
 ### 🔹 1. VPC (Virtual Private Cloud)
 Think of it as your own private data center inside AWS.
